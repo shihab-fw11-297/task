@@ -20,7 +20,7 @@ modelsDB.sequelize = sequelize;
 
 modelsDB.products = require('../model/productModel.js')(sequelize, DataTypes)
 modelsDB.reviews = require('../model/reviewModel.js')(sequelize, DataTypes)
-
+modelsDB.user = require('../model/userModel.js')(sequelize, DataTypes)
 
 // 1 to Many Relation
 
